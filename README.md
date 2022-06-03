@@ -1,4 +1,4 @@
-# OOP_CS_2022
+# OOP_CS_2022 :triangular_ruler:
 
 ## [Class](#create-class)
 
