@@ -2,10 +2,6 @@
 
 ## [Class](#create-class)
 
-
-
-
-
  ---
  ### Create Class
  ```js
