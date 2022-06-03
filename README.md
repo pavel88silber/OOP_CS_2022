@@ -35,6 +35,7 @@ class Valid2 extends Valid {
         this.emailError = emailError
         this.passwordError = passwordError
     }
+    // Метод переопределяется если такое же имя в родительском классе
     validate() {
         if (this.password.length >= 6 && this.email) {
             this.isValid = true
@@ -59,8 +60,8 @@ class Valid2 extends Valid {
 ### Instance of Class
 ```js
 let valid6 = new Valid2('qwe@mail.yy', '12345678')
-// Class method
-console.log(valid6)
 
+// Class method
+valid6.validate()
 ```
 
